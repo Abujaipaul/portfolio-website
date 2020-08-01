@@ -5,10 +5,12 @@ body{
 	font-family:san-serif;
 	color:#777777;
 	line-height:26px;
+	background-color: black;
 }
 .half-width{
 	width: 50%;
 	float: left;
+	line-height: 40px;
 }
 .side-img{
 	width: 50%;
@@ -23,7 +25,6 @@ body{
 }
 h1{
 	font-size:2.5em;
-	line-height:32px ;
 }
 .container{
 	padding-left:5%;
@@ -37,5 +38,8 @@ h1{
 }
 .experience-item{
 	padding: 10px;
-	border-left: 1px solid rgba(137, 130, 247, .2);
+	border-left: 1px solid rgba(137, 130, 247,.2);
+}
+footer{
+	text-align: center;
 }
