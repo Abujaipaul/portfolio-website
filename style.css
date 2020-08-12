@@ -1,12 +1,66 @@
-.purple-color{
-	color:purple;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
 body{
-	font-family:san-serif;
+	font-family: 'Titillium Web', san-serif;
 	color:#777777;
 	line-height:26px;
-	background-color: black;
+	background-color: rgb(230, 230, 230);
 }
+/* NAVBAR */
+.navbar{
+	background-color: #333;
+	position: sticky;
+	margin-bottom: 20px;
+}
+
+.links {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.links h1 {
+	color: #f4f4f4;
+	
+}
+.links ul {
+	display: flex;
+	width: 500px;
+	justify-content: space-evenly;
+
+}
+
+.links ul li {
+	list-style: none;
+	padding: 10px 20px;
+	margin: 10px 0;
+}
+
+.links ul li a {
+	text-decoration: none;
+	color: #f4f4f4;
+	font-size: 20px;
+	} 
+
+.links ul li:hover {
+	background-color: coral;
+}
+
+.links ul .active {
+	background-color:  coral;
+}
+.links ul .active:hover {
+	background-color:  rgb(250, 97, 41);
+
+}
+
 .half-width{
 	width: 50%;
 	float: left;
@@ -30,6 +84,7 @@ h1{
 	padding-left:5%;
 	display: inline-block;
 }
+
 .experiences{
 	padding: 30px;
 	margin: 30px;
